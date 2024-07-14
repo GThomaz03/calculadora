@@ -26,19 +26,45 @@ main{
 .visor{
     width: 100%;
     height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+#conta{
+    color: rgb(238, 236, 236);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#operacao{
+    color: white;
+    font-size: 30px;
 }
 
 .botoes{
     width: 100%;
-    height: 100%;
+    height: 55%;
     display: flex;
     flex-wrap: inherit;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 0px 5px;
+}
 
+.botao:hover{
+    background-color: #dd7b2c;
 }
 
 .botao{
-    width: 23%;
-    height: 13%;
+    width: 22%;
+    height: 19%;
+    border-radius: 10px;
+    background-color: #ee8530;
+    border: none;
+    color: white;
+    font-size: 20px;
 }
+
